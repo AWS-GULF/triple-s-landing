@@ -1,0 +1,100 @@
+{
+  "Features": "Features",
+  "creators": "creators",
+  "pricing": "pricing",
+  "request": "Request A Demo",
+  "lng": "ع",
+  "h1": "Smart Support System",
+  "HeroCont": "The most modern and accurate ticket tracking system",
+  "watch": "Watch A Demo",
+
+  "aboutCont": "An online ticket management system works by creating a unique ticket that records interactions pertaining to a customer issue. This ticket is shared among your agents as well as the customer and acts as an important point of reference for both parties. A competitive ticket management system brings order to customer support and makes it methodical in managing customer requests. No more emails, Email makes tracking issues a cumbersome process. Now Your customers can help themselves. Monitoring the performance of your team is a big challenge now it's easy. A Shared Inbox for All Your Email Communications.",
+  "aboutTitle": "Track, prioritize, and solve customer tickets.",
+
+  "INcateg": "INCIDENT MANAGEMENT",
+  "ITcateg": "IT ASSET MANAGEMENT ",
+  "EMcateg": "EMPLOYEE SERVICE",
+  "KNcateg": "KNOWLEDGE BASE",
+  "PRcateg": "PROBLEM MANAGEMENT",
+  "CHcateg": "CHANGE MANAGEMENT",
+
+  "IMfeature1": "Improved management of problems and incidents through seamless communication.",
+  "IMfeature2": "feature 1 List1",
+  "IMfeature3": "feature 1 List1",
+  "IMfeature4": "feature 1 List1",
+  "IMfeature5": "feature 1 List1",
+
+  "ITfeature1": "Useful for businesses relying on maintenance and after-sales processes to limit and manage projects.",
+  "ITfeature2": "Asset 1 List1",
+
+  "Emfeature1": "Facilitates a healthy work environment by simplifying problem communication and resolution.",
+  "Emfeature2": "employee 1 List1",
+
+  "Knfeature1": "Guarantees the retention of problems as references, creating a database of company issues and solutions",
+  "Knfeature2": "knowledge 1 List1",
+
+  "profeature1": "An effective system for managing and solving problems, ensuring smooth communication between employees and customers.",
+  "profeature2": "problem knowledge 1 List1",
+
+  "changefeature1": "Reduces problem resolution time, enhancing employee productivity and overall operational efficiency.",
+  "changefeature2": "problem knowledge 1 List1",
+
+  "meetTitle": "Meet The Creators",
+  "meetDesc": "STL is a 100% self-bootstrapped company, has been founded by young engineers who decided not to follow the same manner of increasing the number of gears in huge machines already been established under certain conditions.",
+
+  "plansTitle": "CHOOSE THE PLAN THAT WORKS FOR YOU",
+  "plansDesc": "The following plans are valid for the first 50 companies only, hurry up!",
+
+  "basic": "Basic",
+  "plus": "Plus",
+  "unlimited": "Unlimited",
+
+  "basicupto": "Up to 500 user",
+  "plusupto": "Up to 500 user",
+  "unlimitedupto": "Up to 500 user",
+
+  "basicBtn": "Go Basic",
+  "plusBtn": "Go Plus",
+  "unlimitedBtn": "Go Unlimited",
+
+  "permonth": "per month",
+
+  "let's": "Let's Talk",
+  "name": "name",
+  "email": "email",
+  "phone": "phone",
+  "msg": "message",
+  "send": "Send",
+
+  "adminTitle": "Admin Interface",
+  "adminDesc": "Admin Interface: Exclusively designed for administrators, this interface provides a comprehensive overview of all external tickets allocated to thetechnical team. Administrators can efficiently manage and assign tickets,ensuring a smooth workflow for their technical team. Additionally,administrators have the capability to add companies (clients), countries,cities, and departments, ensuring a dynamic and adaptive system.",
+
+  "title1": "Admin Interface",
+  "title2": "Support Interface",
+  "title3": "Company Interface",
+  "title4": "Employee Interface",
+  "title5": "Smart Support Interface",
+
+  "desc1": "Exclusively designed for administrators, this interfaceprovides a comprehensive overview of all external tickets allocated to thetechnical team. Administrators can efficiently manage and assign tickets,ensuring a smooth workflow for their technical team. Additionally,administrators have the capability to add companies (clients), countries,cities, and departments, ensuring a dynamic and adaptive system.",
+  "desc2": "Specifically designed for the company's internal use,this interface empowers employees to resolve internal tickets swiftly. Iserves as a dedicated platform for addressing challenges within departmentsor across various branches, streamlining internal issue resolution processes.",
+  "desc3": "Tailored for companies utilizing the Smart Support System, this interface allows for the efficient management of organizational hierarchies. Companies can seamlessly add branches,fostering a structured and organized workflow and them employees.",
+  "desc4": "Individually designed for employees, this interfacefacilitates the submission of external tickets to STL, addressing system-related issues. Simultaneously, employees can raise internal tickets toresolve challenges encountered within their department or across differentbranches, eliminating the need for intricate communication channels.",
+  "desc5": "An exclusive platform for STL employees, this interface enables the resolution of external tickets. Oursupport team works diligently to address external issues reported bycustomers and affiliated companies, ensuring a seamless experience."
+
+  ,"admin":"Admin",
+  "support":"Support",
+  "company":"Company",
+  "employee":"Employee",
+  "smart":"Smart Support"
+
+
+}
+
+
+
+
+
+
+
+
+
