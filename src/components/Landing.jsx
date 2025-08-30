@@ -1,5 +1,5 @@
 import mockup from "../assets/images/mockup.svg"
-import Carousel from "./carousel"
+import Carousel from "./Carousel"
 
 export default function Landing() {
   return (
