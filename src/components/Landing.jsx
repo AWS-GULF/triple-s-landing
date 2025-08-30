@@ -1,5 +1,5 @@
 import mockup from "../assets/images/mockup.svg"
-import stages from "../assets/images/stages.svg"
+import Carousel from "./carousel"
 
 export default function Landing() {
   return (
@@ -45,7 +45,8 @@ export default function Landing() {
         
         {/* UI Stages - Using imported stages image */}
         <div className="flex justify-center items-center">
-          <img src={stages} alt="UI Stages" className="" />
+          {/* <img src={stages} alt="UI Stages" className="" /> */}
+          <Carousel/>
         </div>
       </div>
 
@@ -54,7 +55,7 @@ export default function Landing() {
         <div className="text-white text-xs sm:text-base mb-10 sm:mb-0">
           © 2024 Consulting Firm. All rights reserved.
         </div>
-        <div className="flex items-center  gap-3 text-white  ">
+        <div className="flex items-center  gap-3 text-white ms-4 ">
           <a href="#" className="hover:underline">Privacy Policy</a>
           <span>|</span>
           <a href="#" className="hover:underline">Terms & Conditions</a>
@@ -65,4 +66,3 @@ export default function Landing() {
     </div>
   )
 }
-// dkldfhgdfklfgd
