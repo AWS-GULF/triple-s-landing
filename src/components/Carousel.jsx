@@ -59,6 +59,7 @@
 
 // Carousel.jsx
 // Carousel.jsx
+// Carousel.jsx
 "use client"
 import React, { useEffect, useState } from "react"
 import one from "../assets/images/one.png"
@@ -74,7 +75,7 @@ export default function Carousel() {
 
   // detect screen size
   useEffect(() => {
-    const checkSize = () => setIsMobile(window.innerWidth < 1024) // أقل من md → موبايل
+    const checkSize = () => setIsMobile(window.innerWidth < 1024) // أقل من lg → موبايل
     checkSize()
     window.addEventListener("resize", checkSize)
     return () => window.removeEventListener("resize", checkSize)
@@ -89,23 +90,25 @@ export default function Carousel() {
   }, [])
 
   return (
-    <div className="relative w-full h-[500px] flex items-center justify-center overflow-hidden">
-      <div className="relative w-[1000px] h-[450px] md:w-[1000px] md:h-[450px] sm:w-[100%] ms-10 sm:ms-24 lg:ms-0 scale-125 sm:scale-100 sm:h-[500px]">
+    <div className="relative w-full h-[500px] flex items-center justify-start sm:justify-center overflow-hidden">
+      <div className="relative w-[1000px] h-[450px] md:w-[1000px] md:h-[450px] sm:w-[100%] ms-10 sm:ms-24 lg:ms-0 scale-115 me-8 sm:scale-100 sm:h-[500px]">
         {images.map((img, index) => {
           let position = (index - current + images.length) % images.length
 
-          // سلم أفقي (لابتوب / تابلت)
+          // الوضع الأفقي (لابتوب / تابلت)
           let offsetX = position * 200
           let offsetY = position * 30
+          let scale = 1 - position * 0.1
+          let opacity = 1 - position * 0.2
 
-          // سلم رأسي (موبايل)
+          // الوضع العمودي (موبايل)
           if (isMobile) {
-            offsetX = position * 0
-            offsetY = position * 70
+            offsetX = position * 20
+            offsetY = position * 50
+            scale = 1 - position * 0.05     // تقليل التدرج في الحجم
+            opacity = 1 - position * 0.3   // تقليل التدرج في الشفافية
           }
 
-          const scale = 1 - position * 0.1
-          const opacity = 1 - position * 0.2
           const zIndex = images.length - position
 
           return (
@@ -113,7 +116,7 @@ export default function Carousel() {
               key={index}
               src={img}
               alt={`slide-${index}`}
-              className="absolute top-0 left-0 w-[90%] max-w-[600px] h-[350px] object-contain rounded-2xl shadow-lg transition-all duration-700 ease-in-out mx-auto"
+              className="absolute top-0 left-0 w-[90%] max-w-[600px] h-[350px] object-contain rounded-2xl lg:shadow-lg transition-all duration-700 ease-in-out mx-auto"
               style={{
                 transform: `translateX(${offsetX}px) translateY(${offsetY}px) scale(${scale})`,
                 opacity,
@@ -126,3 +129,4 @@ export default function Carousel() {
     </div>
   )
 }
+

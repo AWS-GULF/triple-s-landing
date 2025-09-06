@@ -36,10 +36,10 @@ export default function Landing() {
       </div>
 
       {/* New Release Section */}
-      <div className="text-center py-10 lg:pb-20">
+      <div className="text-center  lg:pb-20">
         <div className="text-[#E0E0E0] font-[500] mb-4">New Release</div>
         <h2 className="text-[40px] font-bold text-white mb-4">Launch</h2>
-        <p className="lg:text-xl  text-[#E0E0E0] mb-8">
+        <p className="lg:text-xl  text-[#E0E0E0] lg:mb-8">
           Welcome your business to faster, scalable support.
         </p>
         
@@ -52,7 +52,7 @@ export default function Landing() {
 
       {/* Footer */}
       <div className="flex lg:flex-row flex-col justify-center lg:justify-between  items-center py-8 border-t border-white border-opacity-20">
-        <div className="text-white text-xs sm:text-base mb-10 sm:mb-0">
+        <div className="text-white text-xs sm:text-base mb-4 sm:mb-0">
           © 2024 Consulting Firm. All rights reserved.
         </div>
         <div className="flex items-center  gap-3 text-white ms-4 ">
