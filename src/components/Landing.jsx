@@ -1,5 +1,6 @@
 import mockup from "../assets/images/mockup.svg";
 import Carousel from "./Carousel";
+import EmailForm from "./EmailForm";
 
 export default function Landing() {
   return (
@@ -16,19 +17,7 @@ export default function Landing() {
         </p>
 
         {/* Email Signup */}
-        <div className="flex justify-center  mb-8">
-          <div className="relative w-[600px]">
-            <input
-              type="email"
-              placeholder="Enter Your Email"
-              className="w-full px-6 py-3 pr-32 rounded-full bg-white text-xs text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-            <button className="absolute top-1/2 right-1 -translate-y-1/2 px-6 py-1 sm:py-1 lg:py-1.5 bg-[#203B72] text-white rounded-full hover:bg-blue-700 transition-colors">
-              Get Notified
-            </button>
-          </div>
-        </div>
-
+     <EmailForm/>
         {/* Product Mockups - Using imported images */}
         <div className="relative flex justify-center items-center ">
           <img src={mockup} alt="Product Mockup" className="" />
@@ -66,3 +55,6 @@ export default function Landing() {
     </div>
   );
 }
+
+
+
